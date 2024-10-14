@@ -22,15 +22,23 @@
         <section>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/BboGQe7C4p8?si=mIQutefidUzmL_Sn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <img src="IMG/Captura de pantalla 2024-10-07 183216.png" alt="deportes" width="400px">
-            <video controls src="VID/Grabación de pantalla 2024-10-07 184034.mp4"></video>
+            <video controls src="VID/Grabación de pantalla 2024-10-07 184034.mp4" width="400px"></video>
         </section>
     </main>
     <section>
-        <form>
-            <label for="">Nombre</label>
-            <input type="text" name="nombre"> 
-            <label for="">Email</label>
-            <input type="email" name="mail"> 
+        <form action="https://formspree.io/f/movqqwkr" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre"> 
+            
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail"> 
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrrar</button>
+            
         </form>
     </section>
 
